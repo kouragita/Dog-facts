@@ -14,24 +14,26 @@ This project fetches dog images and facts from external APIs and allows users to
 
 ## installation
 
+1. 
 ```
-{
-   git clone https://github.com/your-repo/dog-facts-app.git
+ git clone https://github.com/your-repo/dog-facts-app.git
 cd dog-facts-app
-
+```
+2. 
+```
 npm install -g json-server
-
+```
+3. 
+```
 {
     "facts": []
 }
-
-json-server --watch db.json
-
-
-}
 ```
-
-* Open index.html in your browser.
+4. 
+```
+json-server --watch db.json
+```
+5. Open index.html in your browser.
 
 ## Usage
 1. Select a dog breed from the dropdown list.
