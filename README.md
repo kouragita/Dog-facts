@@ -23,7 +23,7 @@ cd dog-facts-app
 ```
 npm install -g json-server
 ```
-3. create a db.json file and pate this.
+3. create a db.json file and add an object.
 ```
 {
     "facts": []
