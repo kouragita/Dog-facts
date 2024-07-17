@@ -14,22 +14,22 @@ This project fetches dog images and facts from external APIs and allows users to
 
 ## installation
 
-1. 
+1.  clone yur repo into yur local machine
 ```
  git clone https://github.com/your-repo/dog-facts-app.git
 cd dog-facts-app
 ```
-2. 
+2. install a json-server globally
 ```
 npm install -g json-server
 ```
-3. 
+3. create a db.json file and pate this.
 ```
 {
     "facts": []
 }
 ```
-4. 
+4. now watc the end-point on port 3000.
 ```
 json-server --watch db.json
 ```
