@@ -14,6 +14,7 @@ This project fetches dog images and facts from external APIs and allows users to
 
 ## installation
 
+```
 {
    git clone https://github.com/your-repo/dog-facts-app.git
 cd dog-facts-app
@@ -28,15 +29,16 @@ json-server --watch db.json
 
 
 }
+```
 
 * Open index.html in your browser.
 
 ## Usage
-- Select a dog breed from the dropdown list.
-- Click the "Fetch Image and Fact" button to display a random dog image and fact.
-- Add a new fact using the form and clicking "Add Fact".
-- Update the most recently added fact by clicking "Update Last Fact".
-- Delete the most recently added fact by clicking "Delete Last Fact".
+1. Select a dog breed from the dropdown list.
+2. Click the "Fetch Image and Fact" button to display a random dog image and fact.
+3. Add a new fact using the form and clicking "Add Fact".
+4. Update the most recently added fact by clicking "Update Last Fact".
+5. Delete the most recently added fact by clicking "Delete Last Fact".
 
 # APIs Used
 Dog CEO's Dog API: Fetch random dog images.
