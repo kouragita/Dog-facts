@@ -29,7 +29,7 @@ npm install -g json-server
     "facts": []
 }
 ```
-4. now watc the end-point on port 3000.
+4. now watch the end-point on port 3000.
 ```
 json-server --watch db.json
 ```
