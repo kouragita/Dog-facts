@@ -10,17 +10,17 @@
 
 <body>
     <h1>Dog Image and Facts</h1>
-    <label for="breed-select">Select a breed:</label>
-    <select id="breed-select"></select>
-    <button id="fetch-button">Fetch Image and Fact</button>
-    <div id="content">
-        <img id="dog-image" src="" alt="Dog Image">
-        <p id="dog-fact"></p>
+    <label for="breed-select">Select a breed:</label><!--label for the breed. The for attribute is linked to the id of the dropdown element, making the label clickable and associated with the dropdown.-->
+    <select id="breed-select"></select><!--creates a dropdown menu with the id breed-select-->
+    <button id="fetch-button">Fetch Image and Fact</button><!--creates a fetch button hence when clicked triggers a function to fetch a dog image and fact based on the selected breed.-->
+    <div id="content"><!--content container-->
+        <img id="dog-image" src="" alt="Dog Image"><!--The src attribute is initially empty, but will be dynamically updated to display the fetched dog image. The alt attribute provides alternative text "Dog Image" in case the image cannot be displayed.-->
+        <p id="dog-fact"></p><!--initially empty but will be dynamically updated to display the dog fact-->
     </div>
     <form id="dog-fact-form">
         <h2>Add a Dog Fact</h2>
-        <textarea id="new-fact" placeholder="Enter a new fact"></textarea>
-        <button type="submit">Add Fact</button>
+        <textarea id="new-fact" placeholder="Enter a new fact"></textarea><!--allows the user to input multiple lines of text.-->
+        <button type="submit">Add Fact</button><!--The type="submit" attribute indicates that this button will submit the form when clicked.-->
     </form>
     <button id="update-button">Update Last Fact</button>
     <button id="delete-button">Delete Last Fact</button>
