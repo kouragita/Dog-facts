@@ -47,5 +47,6 @@ Dog CEO's Dog API: Fetch random dog images.
 Dog API: Fetch random dog facts.
 JSON Server: Local server for managing additional dog facts.
 
-## License
-This project is licensed under the MIT License.
+## Conclusion 
+This project serves as a testament of my true understanding of phase 1 core-content. Only two of the 3 event listners have been put on use thats the click and submit. unless now r enganging the dom content loaded then makes it to 3.
+Enjoy the ride.
