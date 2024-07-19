@@ -2,8 +2,11 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+    background-color: rgb(204, 20, 81);
 }
-
+h1,h2{
+    color: #ffff;
+}
 #content {
     margin-top: 20px;
 }
